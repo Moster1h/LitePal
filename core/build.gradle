@@ -2,7 +2,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
+
 android {
+
     compileSdkVersion 28
 
     defaultConfig {
@@ -54,3 +56,4 @@ publish {
     desc = 'An Android library that allows developers to use SQLite database extremely easy'
     website = 'https://github.com/Moster1h/LitePal'
 }
+apply from: 'bintray.gradle'
