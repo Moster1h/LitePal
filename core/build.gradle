@@ -47,10 +47,10 @@ buildscript {
 }
 
 publish {
-    userOrg = 'sinyu890807'
-    groupId = 'org.litepal.guolindev'
+    userOrg = 'moster1h'
+    groupId = 'org.litepal.moster1h'
     artifactId = 'core'
     publishVersion = '3.1.1'
     desc = 'An Android library that allows developers to use SQLite database extremely easy'
-    website = 'https://github.com/LitePalFramework/LitePal'
+    website = 'https://github.com/Moster1h/LitePal'
 }
